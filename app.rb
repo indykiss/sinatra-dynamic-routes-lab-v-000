@@ -43,8 +43,8 @@ class App < Sinatra::Base
         @operation == "-"
           elsif @operation == "multiply"
           @operation == "*"
-            elsif @operation == "add"
-            @operation == ""
+            elsif @operation == "divide"
+            @operation == "\"
     
     "#{@number1} #{@operation} #{@number2}"
   end 
