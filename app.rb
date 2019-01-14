@@ -39,6 +39,8 @@ class App < Sinatra::Base
     
     if @operation == "add"
         @operation == "+"
+        elsif @operation == "subtract"
+        @operation == "+"
     
     "#{@number1} #{@operation} #{@number2}"
   end 
