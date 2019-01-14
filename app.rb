@@ -46,7 +46,7 @@ class App < Sinatra::Base
             elsif @operation == "divide"
             @operation == "/"
     end 
-        "#{@number1} #{@operation} #{@number2}"
+  "#{@number1} #{@operation} #{@number2}"
 
   end 
   
