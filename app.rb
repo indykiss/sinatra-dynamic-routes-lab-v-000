@@ -47,9 +47,9 @@ class App < Sinatra::Base
             @operation == "/"
     
     "#{@number1} #{@operation} #{@number2}"
+          end 
         end 
       end 
-    end 
     end 
   end 
   
